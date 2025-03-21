@@ -178,10 +178,13 @@ h1 {
 @media (max-width: 768px) {
     .reader-container {
         width: 100%;
-        padding: 15px;
+        padding: 20px; /* Thêm khoảng cách để dễ nhìn hơn */
+        line-height: 1.8; /* Tăng khoảng cách dòng để không bị dày chữ */
     }
     .chapter-content {
-        font-size: 16px;
+        font-size: 18px; /* Chữ lớn hơn giúp đọc dễ hơn */
+        text-align: justify; /* Căn đều hai bên để đẹp hơn */
     }
 }
+
 
