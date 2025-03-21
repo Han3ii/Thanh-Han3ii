@@ -10,6 +10,12 @@ html, body {
     width: 100%;
     overflow-x: hidden;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .container {
     width: 100%;
     max-width: 900px;
