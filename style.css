@@ -113,11 +113,6 @@ img {
 }
 
 @media (max-width: 768px) {
-    .container {
-        width: 100%;
-    max-width: 900px;
-        padding: 15px;
-    }
     .nav {
         flex-direction: column;
         align-items: center;
@@ -130,9 +125,8 @@ img {
     }
     .list {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
     }
     .list li {
         width: 100%;
@@ -144,6 +138,6 @@ img {
         height: auto;
     }
     .title {
-        font-size: 24px;
+        font-size: 22px;
     }
 }
