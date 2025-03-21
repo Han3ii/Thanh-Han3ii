@@ -100,10 +100,9 @@ body {
     color: #cc5500;
 }
 
-/* Responsive cho điện thoại */
 @media (max-width: 768px) {
     .container {
-        width: 95%;
+        width: 100%;
         padding: 15px;
     }
     .nav {
